@@ -45,7 +45,6 @@
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            hold-trigger-key-positions = <0 1 2 3 4 5 18 14 15 16 17 18 29 30 31 32 33 34 42 43 44 13 28 45 46 47>;
         };
 
         hmr: hmr {
@@ -84,7 +83,7 @@
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp ESCAPE      &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                               &kp LGUI  &mo 1  &lt 3 ENTER                                               &lt 3 SPACE  &mo 2  &kp RALT
             >;
 
