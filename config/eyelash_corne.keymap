@@ -77,23 +77,6 @@
     };
 
     macros {
-        print: print {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp NUMBER_4 &kp LEFT_COMMAND &kp LEFT_SHIFT>;
-
-            label = "PRINT";
-        };
-
-        noti: noti {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp UNDER &kp S &kp O &kp C &kp I &kp A &kp L &kp DOT &kp UNDER &kp N &kp O &kp T &kp I &kp F &kp I &kp C &kp A &kp T &kp I &kp O &kp N &kp DOT &kp UNDER &kp C &kp R &kp E &kp A &kp T &kp E &kp LPAR &kp RBKT &kp R &kp E &kp C &kp I &kp P &kp I &kp E &kp N &kp T &kp COLON &kp SPACE &kp RBKT &kp SPACE &kp UNDER &kp I &kp D &kp COLON &kp SPACE &kp UNDER &kp U &kp S &kp E &kp R &kp DOT &kp UNDER &kp I &kp D &kp RBRC &kp COMMA &kp S &kp U &kp B &kp J &kp E &kp C &kp T &kp COLON &kp SPACE &kp UNDER &kp U &kp T &kp I &kp L &kp S &kp DOT &kp S &kp T &kp R &kp I &kp N &kp G &kp I &kp F &kp Y &kp LS(A) &kp S &kp LS(J) &kp S &kp O &kp N &kp LPAR &kp RPAR &kp RBRC &kp RPAR &kp SEMI>;
-            label = "NOTI";
-        };
-
         stringfy: stringfy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
