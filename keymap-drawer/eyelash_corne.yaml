@@ -161,7 +161,7 @@ layers:
   - F9
   - F10
   - F11
-  - BT CLR ALL
+  - '&bl BL_ON'
   - $$mdi:bluetooth-off$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
